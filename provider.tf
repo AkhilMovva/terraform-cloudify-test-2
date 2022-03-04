@@ -5,11 +5,11 @@ terraform {
       version = "~> 3.0"
     }
   }
-  backend "s3" {
-    bucket = "terraform-flask-bucket"
-    key    = "dev/project1/terraform.tfstate"
-    region = "us-east-1"
-  }
+  # backend "s3" {
+  #   bucket = "terraform-flask-bucket"
+  #   key    = "dev/project1/terraform.tfstate"
+  #   region = "us-east-1"
+  # }
 }
 
 
